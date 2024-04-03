@@ -7,3 +7,9 @@
 :root {
     font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+@layer components {
+    .slidein {
+        transition: all 300ms ease-in;
+    }
+}
