@@ -73,7 +73,7 @@ export default function PopulationGraph() {
 
     return (
         <Fragment>
-            <div className="md:w-1/2">
+            <div className="lg:w-1/2">
                 <Bar options={{ ...options, scales: {} }} data={data} />
             </div>
         </Fragment>
